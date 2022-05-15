@@ -7,7 +7,7 @@ import retrofit2.http.POST;
 
 
 public interface RegisterInterface {
-    String REGIURL = "http://192.168.43.38/Login_android/";
+    String REGIURL = "http://192.168.40.27/Login_android/";
     @FormUrlEncoded
     @POST("simpleregister.php")
     Call<String> getUserRegi(

@@ -7,7 +7,7 @@ import retrofit2.http.POST;
 
 
 public interface LoginInterface {
-    String LOGINURL = "http://192.168.43.38/Login_android/";
+    String LOGINURL = "http://192.168.40.27/Login_android/";
     @FormUrlEncoded
     @POST("simplelogin.php")
     Call<String> getUserLogin(
